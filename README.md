@@ -1,4 +1,4 @@
-# RoadMapConstructionVisualEvaluator
+# RoadMapConstructionEvaluator
 
 A framework in C# to evaluate road graphs inferred by trajectory-based road map construction algorithms. Part of master thesis for the University Utrecht Department of Information and Computing Science. This version works without visualisations. We heavily recommend the visual version, which you can find [here](https://github.com/AriSaadon/RoadMapConstructionEvaluation).
 
