@@ -41,7 +41,8 @@ The example below shows a sketch of how a map can be evaluated.
 Map gt = importMap.ReadMap($"data/Ground-truth");	
 Map cm = importMap.ReadMap($"data/Constructed-map");
 
-(float, float) similarityScore = eval.EvalNeighbourhood(gt, cm);
+//Evaluates the map by averaging 100 local neighbourhoods.
+(float, float) similarityScore = eval.EvalMap(gt, cm, 100); 
 
 Console.WriteLine(similarityScore);
 ```
